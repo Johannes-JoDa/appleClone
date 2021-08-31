@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
+
+/*                  Font                  */
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+
+body {
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+nav {
+  background-color: #333333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container1 {
+  margin-top: 10px;
+}
+
+.container2 {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 19%;
+  margin-left: 10%;
+  
+}
+.icon {
+  display: inline-block;
+  width: 9%;
+}
+
+a {
+  color: #1E6EB8;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: #1E6EB8;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.img-iphone {
+  margin-left: 10%;
+}
+
+.text {
+  margin-top: 35px;
+  text-align: center;
+  
+}
+
+.text1 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.text2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+i {
+  margin-left: 10px;
+  color: #1E6EB8;
+}
+
+.sub-hero {
+  margin-top: 20px;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 24.8%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+#img1 {
+  background-image: url(./images/watch_large.jpg);
+
+}
+#img2 {
+  background-image: url(./images/ipad_pro_large.jpg);
+
+}
+#img3 {
+  background-image: url(./images/accessories_large.jpg);
+
+}
+#img4 {
+  background-image: url(./images/macbook_large.jpg);
+
+}
+
+.sub-hero-text {
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  color: #1E6EB8;
+}
+
+footer {
+  background-color: #F2F2F2;
+  height: 440px;
+}
+
+.col {
+  font-size: 14px;
+  display: inline-block;
+  width: 16%;
+  height: 300px;
+  margin: 20px;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.head {
+  font-weight: bold;
+}
+
+li {
+  padding: 5px;
+}
+
+.div-bottom {
+  border-top: 1px;
+  border-color: gray;
+  border-style: solid;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.visit {
+  font-size: 12px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.btn-bottom {
+  font-size: 12px;
+  border-right: 1px;
+  border-color: grey;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.icon2 {
+  float: right;
+}
